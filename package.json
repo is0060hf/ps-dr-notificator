@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "PlanetScale to Slack integration on Vercel",
     "private": true,
+    "type": "module",
     "scripts": {
       "dev": "vercel dev",
       "deploy": "vercel --prod",
