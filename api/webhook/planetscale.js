@@ -1,6 +1,6 @@
 // api/webhook/planetscale.js
-import { verifyPlanetScaleSignature } from '../../lib/verify';
-import { sendSlackNotification } from '../../lib/slack';
+import { verifyPlanetScaleSignature } from '../../lib/verify.js';
+import { sendSlackNotification } from '../../lib/slack.js';
 
 // Vercel API設定
 export const config = {
