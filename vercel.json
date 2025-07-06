@@ -1,0 +1,11 @@
+{
+    "functions": {
+      "api/webhook/planetscale.js": {
+        "maxDuration": 10
+      }
+    },
+    "env": {
+      "PLANETSCALE_WEBHOOK_SECRET": "@planetscale-webhook-secret",
+      "SLACK_WEBHOOK_URL": "@slack-webhook-url"
+    }
+  }
