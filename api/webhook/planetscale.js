@@ -17,7 +17,8 @@ const DEPLOY_REQUEST_EVENTS = [
   'deploy_request.queued',
   'deploy_request.schema_applied',
   'deploy_request.closed',
-  'deploy_request.pending_cutover'
+  'deploy_request.pending_cutover',
+  'webhook.test'
 ];
 
 export default async function handler(req, res) {
